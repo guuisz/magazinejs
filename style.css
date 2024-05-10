@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 body {
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
@@ -125,7 +126,7 @@ body p {
 }
 
 .image_rosa {
-    margin-top: 30px;
+    margin-top: 15vh;
 }
 
 .image_rosa p {
@@ -133,8 +134,8 @@ body p {
 }
 
 .image_rosa_ls {
-    margin-top: 1.3vw;
-    margin-bottom: 4.55vw;
+    height: 2vh;
+    height: 45vh;
 }
 
 .image_rosa {
@@ -142,7 +143,7 @@ body p {
     transform: translateY(0);
 }
 .image_rosa img{
-    max-height: 70vh;
+    height: 51vh;
 }
 
 .image_branca {
@@ -151,7 +152,7 @@ body p {
 }
 
 .image_branca img{
-    max-height: 70vh;
+    height: 51vh;
 }
 
 .image_branca a {
@@ -159,8 +160,8 @@ body p {
 }
 
 .image_branca_ls {
-    margin-top: 1.3vw;
-    margin-bottom: 4.55vw;
+    height: 2vh;
+    height: 40vh;
 }
 
 .image_azul {
@@ -168,12 +169,12 @@ body p {
     transform: translateY(0);
 }
 .image_azul img{
-    max-height: 70vh;
+    height: 51vh;
 }
 
 .image_azul_ls {
-    margin-top: 1.3vw;
-    margin-bottom: 4.55vw;
+    height: 2vh;
+    height: 40vh;
 }
 
 .image_laranja {
@@ -182,12 +183,12 @@ body p {
 }
 
 .image_laranja_ls {
-    margin-top: 1.3vw;
-    margin-bottom: 120px;
+    height: 2vh;
+    height: 40vh;
 }
 
 .image_laranja img{
-    max-height: 70vh;
+    height: 51vh;
 }
 
 .image_amarelo {
@@ -195,12 +196,12 @@ body p {
     transform: translateY(0);
 }
 .image_amarelo img{
-    max-height: 70vh;
+    height: 51vh;
 }
 
 .image_amarelo_ls {
-    margin-top: 1.3vw;
-    margin-bottom: 4.55vw;
+    height: 2vh;
+    height: 40vh;
 }
 
 .image_azulE {
@@ -208,12 +209,12 @@ body p {
     transform: translateY(0);
 }
 .image_azulE img{
-    max-height: 70vh;
+    height: 51vh;
 }
 
 .image_azulE_ls {
-    margin-top: 1.3vw;
-    margin-bottom: 4.55vw;
+    height: 2vh;
+    height: 40vh;
 }
 
 .image_vermelho {
@@ -221,9 +222,9 @@ body p {
     transform: translateY(0);
 }
 .image_vermelho img{
-    max-height: 70vh;
+    height: 51vh;
 }
 
 .image_vermelha_ls {
-    margin-top: 1.3vw;
+    height: 2vh;
 }
