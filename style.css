@@ -3,7 +3,7 @@
 body {
     overflow: hidden;
     font-family: 'Roboto', sans-serif;
-    padding: 10px;
+    padding: 1vw;
 }
 
 body p {
@@ -13,7 +13,7 @@ body p {
 .colorBG {
     background-color: rgb(255, 96, 140);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
     transition: all 1s;
 }
 
@@ -21,17 +21,17 @@ body p {
     grid-column: 1;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    height: 700px;
+    height: 95vh;
 }
 
 .column1 img{
-    max-width: 250px;
+    max-width: 60%;
 }
 
 .column1-text {
-    width: 300px;
+    width: 60%;
     align-self: end;
-    padding-bottom: 25px;
+    padding-bottom: 1vw;
 }
 
 .column1-text p {
@@ -39,21 +39,21 @@ body p {
 }
 
 .column1-text p:nth-child(1) {
-    font-size: 18px;
-    line-height: 25px;
+    font-size: 1.1em;
+    line-height: 1.4em;
     font-weight: bold;
 }
 
 .column1-text p:nth-child(2) {
-    font-size: 12px;
-    margin-top: 5px;
-    line-height: 25px;
+    font-size: 0.75em;
+    margin-top: 0.5vw;
+    line-height: 1.4em;
 }
 
 .column1-end {
     text-decoration: none;
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 1.1em;
     color: rgb(37, 29, 32);
     font-weight: bold;
 }
@@ -68,13 +68,18 @@ body p {
     justify-self: center;
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 
 .column2 span {
-    font-size: 15px;
+    font-size: 0.85em;
 }
 
+.column2 a {
+    font-size: 0.85em;
+    text-decoration: none;
+    color: white;
+}
 
 .column2 a:hover {
     text-decoration: underline;
@@ -84,19 +89,19 @@ body p {
     grid-column: 3;
     display: grid;
     grid-template-rows: auto auto;
-    height: 700px;
+    height: 95vh;
     text-align: end;
 }
 
 .column3 p {
     margin: 0px;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
 .column3 a {
     margin: 0px;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 
 .column3-anchors {
@@ -119,12 +124,6 @@ body p {
     color: rgb(37, 29, 32);
 }
 
-.column2 a {
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-}
-
 .image_rosa {
     margin-top: 30px;
 }
@@ -134,8 +133,8 @@ body p {
 }
 
 .image_rosa_ls {
-    margin-top: 20px;
-    margin-bottom: 70px;
+    margin-top: 1.3vw;
+    margin-bottom: 4.55vw;
 }
 
 .image_rosa {
@@ -143,7 +142,7 @@ body p {
     transform: translateY(0);
 }
 .image_rosa img{
-    height: 520px;
+    max-height: 70vh;
 }
 
 .image_branca {
@@ -152,7 +151,7 @@ body p {
 }
 
 .image_branca img{
-    height: 520px;
+    max-height: 70vh;
 }
 
 .image_branca a {
@@ -160,8 +159,8 @@ body p {
 }
 
 .image_branca_ls {
-    margin-top: 20px;
-    margin-bottom: 70px;
+    margin-top: 1.3vw;
+    margin-bottom: 4.55vw;
 }
 
 .image_azul {
@@ -169,12 +168,12 @@ body p {
     transform: translateY(0);
 }
 .image_azul img{
-    height: 520px;
+    max-height: 70vh;
 }
 
 .image_azul_ls {
-    margin-top: 20px;
-    margin-bottom: 70px;
+    margin-top: 1.3vw;
+    margin-bottom: 4.55vw;
 }
 
 .image_laranja {
@@ -183,12 +182,12 @@ body p {
 }
 
 .image_laranja_ls {
-    margin-top: 20px;
+    margin-top: 1.3vw;
     margin-bottom: 120px;
 }
 
 .image_laranja img{
-    height: 520px;
+    max-height: 70vh;
 }
 
 .image_amarelo {
@@ -196,12 +195,12 @@ body p {
     transform: translateY(0);
 }
 .image_amarelo img{
-    height: 520px;
+    max-height: 70vh;
 }
 
 .image_amarelo_ls {
-    margin-top: 20px;
-    margin-bottom: 70px;
+    margin-top: 1.3vw;
+    margin-bottom: 4.55vw;
 }
 
 .image_azulE {
@@ -209,12 +208,12 @@ body p {
     transform: translateY(0);
 }
 .image_azulE img{
-    height: 520px;
+    max-height: 70vh;
 }
 
 .image_azulE_ls {
-    margin-top: 20px;
-    margin-bottom: 70px;
+    margin-top: 1.3vw;
+    margin-bottom: 4.55vw;
 }
 
 .image_vermelho {
@@ -222,9 +221,9 @@ body p {
     transform: translateY(0);
 }
 .image_vermelho img{
-    height: 520px;
+    max-height: 70vh;
 }
 
 .image_vermelha_ls {
-    margin-top: 20px;
+    margin-top: 1.3vw;
 }
